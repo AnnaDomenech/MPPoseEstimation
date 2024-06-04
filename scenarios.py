@@ -39,7 +39,7 @@ def framework(model, data_list, **kwargs):
                 )
 
                 if scenario == "B":
-                    # Compute wrist angle
+                    # Compute elbow angle
                     elbow_angle = compute_angle(pose_sample, **config["elbow"])
                     # If its value is over 10 degrees, display a warning
                     if elbow_angle > 10:
