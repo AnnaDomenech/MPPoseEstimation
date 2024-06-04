@@ -31,7 +31,7 @@ def framework(model, data_list, **kwargs):
                 # Compute shoulder abduction angle
                 shoulder_angle = compute_angle(pose_sample, **config["shoulder"])
                 # Draw shoulder abduction angle
-                text = "Estimated shoulder abduction angle. {:.2f}".format(
+                text = "Shoulder abduction angle: {:.2f} degrees.".format(
                     shoulder_angle
                 )
                 add_rectangle_and_text(
