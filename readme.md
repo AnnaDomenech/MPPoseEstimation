@@ -26,7 +26,7 @@ Replace the placeholders with appropriate values:
 
 - `<scenario>`: A, B, or C. Note that all scenarios implement A.
 - `<folder>`: Folder path to the images.
-- `<show>`: True or False. If True an image with the results will be displayed.
+- `<show>`: True or False. If True an image with the results will be displayed. Press any key to end the visualization.
 - `<model_path>`: Path to the model file.
 
 ### Example
